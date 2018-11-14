@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AFD827A1C12D5B924787F3E /* Pods_Meetup_CleanSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184FBB44E354582569B083A7 /* Pods_Meetup_CleanSwiftUITests.framework */; };
+		2F43A24F2199150700451850 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A24E2199150700451850 /* GroupViewController.swift */; };
+		2F43A2572199168000451850 /* GroupDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2512199168000451850 /* GroupDetailPresenter.swift */; };
+		2F43A2582199168000451850 /* GroupDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2522199168000451850 /* GroupDetailWorker.swift */; };
+		2F43A2592199168000451850 /* GroupDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2532199168000451850 /* GroupDetailRouter.swift */; };
+		2F43A25A2199168000451850 /* GroupDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2542199168000451850 /* GroupDetailModels.swift */; };
+		2F43A25B2199168000451850 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2552199168000451850 /* GroupDetailViewController.swift */; };
+		2F43A25C2199168000451850 /* GroupDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2562199168000451850 /* GroupDetailInteractor.swift */; };
+		2F43A25E2199169700451850 /* GroupDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F43A25D2199169700451850 /* GroupDetail.storyboard */; };
+		2F43A2622199DF0300451850 /* ScaleTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A2612199DF0300451850 /* ScaleTransitionDelegate.swift */; };
+		2F43A264219A132700451850 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A263219A132700451850 /* Enums.swift */; };
+		2F43A266219A15A100451850 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F43A265219A15A100451850 /* Localizable.strings */; };
+		2F43A26E219B143F00451850 /* GroupViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A26A219B143F00451850 /* GroupViewControllerTests.swift */; };
+		2F43A26F219B143F00451850 /* GroupInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A26B219B143F00451850 /* GroupInteractorTests.swift */; };
+		2F43A270219B143F00451850 /* GroupWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A26C219B143F00451850 /* GroupWorkerTests.swift */; };
+		2F43A271219B143F00451850 /* GroupPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A26D219B143F00451850 /* GroupPresenterTests.swift */; };
+		2F43A275219B4A2800451850 /* GroupMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A274219B4A2800451850 /* GroupMock.swift */; };
 		2FBCDDE2219787CF00C6CA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDDE1219787CF00C6CA48 /* AppDelegate.swift */; };
-		2FBCDDE4219787CF00C6CA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDDE3219787CF00C6CA48 /* ViewController.swift */; };
 		2FBCDDE7219787CF00C6CA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCDDE5219787CF00C6CA48 /* Main.storyboard */; };
 		2FBCDDE9219787D100C6CA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCDDE8219787D100C6CA48 /* Assets.xcassets */; };
 		2FBCDDEC219787D100C6CA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCDDEA219787D100C6CA48 /* LaunchScreen.storyboard */; };
 		2FBCDDF7219787D100C6CA48 /* Meetup_CleanSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDDF6219787D100C6CA48 /* Meetup_CleanSwiftTests.swift */; };
 		2FBCDE02219787D100C6CA48 /* Meetup_CleanSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE01219787D100C6CA48 /* Meetup_CleanSwiftUITests.swift */; };
+		2FBCDE1821978D7800C6CA48 /* GroupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1221978D7800C6CA48 /* GroupPresenter.swift */; };
+		2FBCDE1921978D7800C6CA48 /* GroupWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1321978D7800C6CA48 /* GroupWorker.swift */; };
+		2FBCDE1A21978D7800C6CA48 /* GroupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1421978D7800C6CA48 /* GroupRouter.swift */; };
+		2FBCDE1B21978D7800C6CA48 /* GroupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1521978D7800C6CA48 /* GroupModels.swift */; };
+		2FBCDE1D21978D7800C6CA48 /* GroupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1721978D7800C6CA48 /* GroupInteractor.swift */; };
+		2FBCDE2021978DE900C6CA48 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBCDE1F21978DE900C6CA48 /* Group.storyboard */; };
+		2FBCDE2321979B4700C6CA48 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE2221979B4700C6CA48 /* GroupTableViewCell.swift */; };
+		2FBCDE2621979C8E00C6CA48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE2521979C8E00C6CA48 /* Constants.swift */; };
+		2FBCDE2B2197A59600C6CA48 /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE2A2197A59600C6CA48 /* GroupsAPI.swift */; };
+		2FBCDE2D2197D9AA00C6CA48 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCDE2C2197D9AA00C6CA48 /* Extensions.swift */; };
+		97DF9E92164452A12B676F53 /* Pods_Meetup_CleanSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0771027FB1B9557B12BEB7AF /* Pods_Meetup_CleanSwift.framework */; };
+		BDD49C1684905BB75F9D387F /* Pods_Meetup_CleanSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B333FACCE04B8C67F9CCBC45 /* Pods_Meetup_CleanSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +62,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0771027FB1B9557B12BEB7AF /* Pods_Meetup_CleanSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetup_CleanSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184FBB44E354582569B083A7 /* Pods_Meetup_CleanSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetup_CleanSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E99B22182B689DE64886A41 /* Pods-Meetup-CleanSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwift/Pods-Meetup-CleanSwift.release.xcconfig"; sourceTree = "<group>"; };
+		2F43A24E2199150700451850 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		2F43A2512199168000451850 /* GroupDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailPresenter.swift; sourceTree = "<group>"; };
+		2F43A2522199168000451850 /* GroupDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailWorker.swift; sourceTree = "<group>"; };
+		2F43A2532199168000451850 /* GroupDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailRouter.swift; sourceTree = "<group>"; };
+		2F43A2542199168000451850 /* GroupDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailModels.swift; sourceTree = "<group>"; };
+		2F43A2552199168000451850 /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
+		2F43A2562199168000451850 /* GroupDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailInteractor.swift; sourceTree = "<group>"; };
+		2F43A25D2199169700451850 /* GroupDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GroupDetail.storyboard; sourceTree = "<group>"; };
+		2F43A2612199DF0300451850 /* ScaleTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransitionDelegate.swift; sourceTree = "<group>"; };
+		2F43A263219A132700451850 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		2F43A265219A15A100451850 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2F43A26A219B143F00451850 /* GroupViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewControllerTests.swift; sourceTree = "<group>"; };
+		2F43A26B219B143F00451850 /* GroupInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInteractorTests.swift; sourceTree = "<group>"; };
+		2F43A26C219B143F00451850 /* GroupWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupWorkerTests.swift; sourceTree = "<group>"; };
+		2F43A26D219B143F00451850 /* GroupPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPresenterTests.swift; sourceTree = "<group>"; };
+		2F43A274219B4A2800451850 /* GroupMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMock.swift; sourceTree = "<group>"; };
 		2FBCDDDE219787CF00C6CA48 /* Meetup-CleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meetup-CleanSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBCDDE1219787CF00C6CA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FBCDDE3219787CF00C6CA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FBCDDE6219787CF00C6CA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FBCDDE8219787D100C6CA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBCDDEB219787D100C6CA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +93,22 @@
 		2FBCDDFD219787D100C6CA48 /* Meetup-CleanSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meetup-CleanSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBCDE01219787D100C6CA48 /* Meetup_CleanSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup_CleanSwiftUITests.swift; sourceTree = "<group>"; };
 		2FBCDE03219787D100C6CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBCDE1221978D7800C6CA48 /* GroupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPresenter.swift; sourceTree = "<group>"; };
+		2FBCDE1321978D7800C6CA48 /* GroupWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupWorker.swift; sourceTree = "<group>"; };
+		2FBCDE1421978D7800C6CA48 /* GroupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRouter.swift; sourceTree = "<group>"; };
+		2FBCDE1521978D7800C6CA48 /* GroupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModels.swift; sourceTree = "<group>"; };
+		2FBCDE1721978D7800C6CA48 /* GroupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInteractor.swift; sourceTree = "<group>"; };
+		2FBCDE1F21978DE900C6CA48 /* Group.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
+		2FBCDE2221979B4700C6CA48 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		2FBCDE2521979C8E00C6CA48 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2FBCDE2A2197A59600C6CA48 /* GroupsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAPI.swift; sourceTree = "<group>"; };
+		2FBCDE2C2197D9AA00C6CA48 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		35078894B854383BAF2D1EC1 /* Pods-Meetup-CleanSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwiftUITests/Pods-Meetup-CleanSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46552CDB24A65CCB989CDC26 /* Pods-Meetup-CleanSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwiftTests/Pods-Meetup-CleanSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		508A619D316A3FC5B1581C8D /* Pods-Meetup-CleanSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwiftUITests/Pods-Meetup-CleanSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B47B2DC5EC964F82D532F02 /* Pods-Meetup-CleanSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwift/Pods-Meetup-CleanSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B333FACCE04B8C67F9CCBC45 /* Pods_Meetup_CleanSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meetup_CleanSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF12CF1BC8A567FBC0704CA7 /* Pods-Meetup-CleanSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetup-CleanSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meetup-CleanSwiftTests/Pods-Meetup-CleanSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DF9E92164452A12B676F53 /* Pods_Meetup_CleanSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD49C1684905BB75F9D387F /* Pods_Meetup_CleanSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +132,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFD827A1C12D5B924787F3E /* Pods_Meetup_CleanSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F43A2502199165800451850 /* Group Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2F43A2512199168000451850 /* GroupDetailPresenter.swift */,
+				2F43A2522199168000451850 /* GroupDetailWorker.swift */,
+				2F43A2532199168000451850 /* GroupDetailRouter.swift */,
+				2F43A2542199168000451850 /* GroupDetailModels.swift */,
+				2F43A2552199168000451850 /* GroupDetailViewController.swift */,
+				2F43A2562199168000451850 /* GroupDetailInteractor.swift */,
+				2F43A25D2199169700451850 /* GroupDetail.storyboard */,
+			);
+			path = "Group Detail";
+			sourceTree = "<group>";
+		};
+		2F43A2602199DEE000451850 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				2F43A2612199DF0300451850 /* ScaleTransitionDelegate.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		2F43A267219A15AB00451850 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDE2C2197D9AA00C6CA48 /* Extensions.swift */,
+				2F43A263219A132700451850 /* Enums.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F43A268219B141C00451850 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2F43A269219B142600451850 /* Groups */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F43A269219B142600451850 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				2F43A273219B481E00451850 /* Mocks */,
+				2F43A272219B481600451850 /* Spies */,
+				2F43A26A219B143F00451850 /* GroupViewControllerTests.swift */,
+				2F43A26B219B143F00451850 /* GroupInteractorTests.swift */,
+				2F43A26C219B143F00451850 /* GroupWorkerTests.swift */,
+				2F43A26D219B143F00451850 /* GroupPresenterTests.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		2F43A272219B481600451850 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		2F43A273219B481E00451850 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2F43A274219B4A2800451850 /* GroupMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		2FBCDDD5219787CF00C6CA48 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +213,8 @@
 				2FBCDDF5219787D100C6CA48 /* Meetup-CleanSwiftTests */,
 				2FBCDE00219787D100C6CA48 /* Meetup-CleanSwiftUITests */,
 				2FBCDDDF219787CF00C6CA48 /* Products */,
+				D8ACE31C823E120B2850DE89 /* Pods */,
+				F4318233B2BEF83BBABA7377 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +231,11 @@
 		2FBCDDE0219787CF00C6CA48 /* Meetup-CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2FBCDE102197883000C6CA48 /* Core */,
+				2FBCDE0F2197882600C6CA48 /* Scenes */,
+				2FBCDE2421979C6F00C6CA48 /* Resources */,
 				2FBCDDE1219787CF00C6CA48 /* AppDelegate.swift */,
-				2FBCDDE3219787CF00C6CA48 /* ViewController.swift */,
 				2FBCDDE5219787CF00C6CA48 /* Main.storyboard */,
-				2FBCDDE8219787D100C6CA48 /* Assets.xcassets */,
 				2FBCDDEA219787D100C6CA48 /* LaunchScreen.storyboard */,
 				2FBCDDED219787D100C6CA48 /* Info.plist */,
 			);
@@ -110,6 +245,7 @@
 		2FBCDDF5219787D100C6CA48 /* Meetup-CleanSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				2F43A268219B141C00451850 /* Scenes */,
 				2FBCDDF6219787D100C6CA48 /* Meetup_CleanSwiftTests.swift */,
 				2FBCDDF8219787D100C6CA48 /* Info.plist */,
 			);
@@ -125,6 +261,81 @@
 			path = "Meetup-CleanSwiftUITests";
 			sourceTree = "<group>";
 		};
+		2FBCDE0F2197882600C6CA48 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDE1E21978D7F00C6CA48 /* Groups */,
+				2F43A2502199165800451850 /* Group Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2FBCDE102197883000C6CA48 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDE292197A56600C6CA48 /* Services */,
+				2F43A2602199DEE000451850 /* Animations */,
+				2F43A267219A15AB00451850 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2FBCDE1E21978D7F00C6CA48 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDE2221979B4700C6CA48 /* GroupTableViewCell.swift */,
+				2FBCDE1221978D7800C6CA48 /* GroupPresenter.swift */,
+				2FBCDE1321978D7800C6CA48 /* GroupWorker.swift */,
+				2FBCDE1421978D7800C6CA48 /* GroupRouter.swift */,
+				2FBCDE1521978D7800C6CA48 /* GroupModels.swift */,
+				2F43A24E2199150700451850 /* GroupViewController.swift */,
+				2FBCDE1721978D7800C6CA48 /* GroupInteractor.swift */,
+				2FBCDE1F21978DE900C6CA48 /* Group.storyboard */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		2FBCDE2421979C6F00C6CA48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDDE8219787D100C6CA48 /* Assets.xcassets */,
+				2FBCDE2521979C8E00C6CA48 /* Constants.swift */,
+				2F43A265219A15A100451850 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FBCDE292197A56600C6CA48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCDE2A2197A59600C6CA48 /* GroupsAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D8ACE31C823E120B2850DE89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B47B2DC5EC964F82D532F02 /* Pods-Meetup-CleanSwift.debug.xcconfig */,
+				1E99B22182B689DE64886A41 /* Pods-Meetup-CleanSwift.release.xcconfig */,
+				BF12CF1BC8A567FBC0704CA7 /* Pods-Meetup-CleanSwiftTests.debug.xcconfig */,
+				46552CDB24A65CCB989CDC26 /* Pods-Meetup-CleanSwiftTests.release.xcconfig */,
+				35078894B854383BAF2D1EC1 /* Pods-Meetup-CleanSwiftUITests.debug.xcconfig */,
+				508A619D316A3FC5B1581C8D /* Pods-Meetup-CleanSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4318233B2BEF83BBABA7377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0771027FB1B9557B12BEB7AF /* Pods_Meetup_CleanSwift.framework */,
+				B333FACCE04B8C67F9CCBC45 /* Pods_Meetup_CleanSwiftTests.framework */,
+				184FBB44E354582569B083A7 /* Pods_Meetup_CleanSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FBCDE06219787D100C6CA48 /* Build configuration list for PBXNativeTarget "Meetup-CleanSwift" */;
 			buildPhases = (
+				F979F90B4E34E09B0FE27A0B /* [CP] Check Pods Manifest.lock */,
 				2FBCDDDA219787CF00C6CA48 /* Sources */,
 				2FBCDDDB219787CF00C6CA48 /* Frameworks */,
 				2FBCDDDC219787CF00C6CA48 /* Resources */,
+				F0E99BA3AD1D486960F4AD9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FBCDE09219787D100C6CA48 /* Build configuration list for PBXNativeTarget "Meetup-CleanSwiftTests" */;
 			buildPhases = (
+				78422B993A476B2A322F52BC /* [CP] Check Pods Manifest.lock */,
 				2FBCDDEE219787D100C6CA48 /* Sources */,
 				2FBCDDEF219787D100C6CA48 /* Frameworks */,
 				2FBCDDF0219787D100C6CA48 /* Resources */,
@@ -167,6 +381,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FBCDE0C219787D100C6CA48 /* Build configuration list for PBXNativeTarget "Meetup-CleanSwiftUITests" */;
 			buildPhases = (
+				3C5944DBA7796E0B1C516819 /* [CP] Check Pods Manifest.lock */,
 				2FBCDDF9219787D100C6CA48 /* Sources */,
 				2FBCDDFA219787D100C6CA48 /* Frameworks */,
 				2FBCDDFB219787D100C6CA48 /* Resources */,
@@ -230,8 +445,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FBCDDEC219787D100C6CA48 /* LaunchScreen.storyboard in Resources */,
+				2F43A266219A15A100451850 /* Localizable.strings in Resources */,
 				2FBCDDE9219787D100C6CA48 /* Assets.xcassets in Resources */,
 				2FBCDDE7219787CF00C6CA48 /* Main.storyboard in Resources */,
+				2F43A25E2199169700451850 /* GroupDetail.storyboard in Resources */,
+				2FBCDE2021978DE900C6CA48 /* Group.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +469,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C5944DBA7796E0B1C516819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meetup-CleanSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78422B993A476B2A322F52BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meetup-CleanSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E99BA3AD1D486960F4AD9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Meetup-CleanSwift/Pods-Meetup-CleanSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meetup-CleanSwift/Pods-Meetup-CleanSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F979F90B4E34E09B0FE27A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meetup-CleanSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FBCDDDA219787CF00C6CA48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBCDDE4219787CF00C6CA48 /* ViewController.swift in Sources */,
+				2FBCDE2321979B4700C6CA48 /* GroupTableViewCell.swift in Sources */,
+				2F43A2582199168000451850 /* GroupDetailWorker.swift in Sources */,
+				2F43A2572199168000451850 /* GroupDetailPresenter.swift in Sources */,
+				2FBCDE1821978D7800C6CA48 /* GroupPresenter.swift in Sources */,
+				2F43A2622199DF0300451850 /* ScaleTransitionDelegate.swift in Sources */,
+				2FBCDE1921978D7800C6CA48 /* GroupWorker.swift in Sources */,
+				2F43A25C2199168000451850 /* GroupDetailInteractor.swift in Sources */,
+				2FBCDE1D21978D7800C6CA48 /* GroupInteractor.swift in Sources */,
+				2F43A25A2199168000451850 /* GroupDetailModels.swift in Sources */,
+				2FBCDE2621979C8E00C6CA48 /* Constants.swift in Sources */,
+				2F43A2592199168000451850 /* GroupDetailRouter.swift in Sources */,
+				2F43A25B2199168000451850 /* GroupDetailViewController.swift in Sources */,
 				2FBCDDE2219787CF00C6CA48 /* AppDelegate.swift in Sources */,
+				2FBCDE1B21978D7800C6CA48 /* GroupModels.swift in Sources */,
+				2FBCDE2B2197A59600C6CA48 /* GroupsAPI.swift in Sources */,
+				2FBCDE2D2197D9AA00C6CA48 /* Extensions.swift in Sources */,
+				2FBCDE1A21978D7800C6CA48 /* GroupRouter.swift in Sources */,
+				2F43A24F2199150700451850 /* GroupViewController.swift in Sources */,
+				2F43A264219A132700451850 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +575,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F43A26E219B143F00451850 /* GroupViewControllerTests.swift in Sources */,
 				2FBCDDF7219787D100C6CA48 /* Meetup_CleanSwiftTests.swift in Sources */,
+				2F43A26F219B143F00451850 /* GroupInteractorTests.swift in Sources */,
+				2F43A275219B4A2800451850 /* GroupMock.swift in Sources */,
+				2F43A270219B143F00451850 /* GroupWorkerTests.swift in Sources */,
+				2F43A271219B143F00451850 /* GroupPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +745,11 @@
 		};
 		2FBCDE07219787D100C6CA48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B47B2DC5EC964F82D532F02 /* Pods-Meetup-CleanSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX6SMS48MG;
 				INFOPLIST_FILE = "Meetup-CleanSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +764,11 @@
 		};
 		2FBCDE08219787D100C6CA48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E99B22182B689DE64886A41 /* Pods-Meetup-CleanSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX6SMS48MG;
 				INFOPLIST_FILE = "Meetup-CleanSwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +783,7 @@
 		};
 		2FBCDE0A219787D100C6CA48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF12CF1BC8A567FBC0704CA7 /* Pods-Meetup-CleanSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +804,7 @@
 		};
 		2FBCDE0B219787D100C6CA48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46552CDB24A65CCB989CDC26 /* Pods-Meetup-CleanSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +825,7 @@
 		};
 		2FBCDE0D219787D100C6CA48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35078894B854383BAF2D1EC1 /* Pods-Meetup-CleanSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +845,7 @@
 		};
 		2FBCDE0E219787D100C6CA48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508A619D316A3FC5B1581C8D /* Pods-Meetup-CleanSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

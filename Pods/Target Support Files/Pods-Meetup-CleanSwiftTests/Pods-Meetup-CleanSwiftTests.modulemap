@@ -1,0 +1,6 @@
+framework module Pods_Meetup_CleanSwiftTests {
+  umbrella header "Pods-Meetup-CleanSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
